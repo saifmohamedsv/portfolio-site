@@ -1,0 +1,15 @@
+.hover-p {
+  padding: 12px;
+  font-size: 14px;
+  background-color: #1f1f1f;
+  border-radius: 18px;
+  display: none;
+  transition: all ease-in-out 0.4s;
+}
+.card {
+  position: relative;
+}
+.card:hover .hover-p {
+  display: block;
+  transition: all ease-in-out 0.4s;
+}

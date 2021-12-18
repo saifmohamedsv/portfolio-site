@@ -1,0 +1,27 @@
+.site-layout-content {
+  min-height: calc(100vh - 110px);
+  padding: 24px;
+  background: transparent;
+  @media screen and (max-width: 768px) {
+    padding: 0;
+  }
+}
+.site-layout-content,
+.layout {
+  background-color: #202024 !important;
+  color: #fff !important;
+}
+.components-layout-demo-top .logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+.ant-row-rtl .components-layout-demo-top .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+.sider-menu {
+  background: #121214 !important;
+}
